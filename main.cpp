@@ -54,7 +54,7 @@ void ChiaSP (Sophuc sp1, Sophuc sp2)
     float thuongthuc = 0;
     float thuongao = 0;
     float tuso = sp1.phanthuc*sp2.phanao - sp1.phanao*sp2.phanthuc;
-    float mauso = sqrt(pow(sp1.phanthuc,2) + (sp1.phanao,2));
+    float mauso = sqrt(pow(sp1.phanthuc,2) + pow(sp1.phanao,2));
     thuongao = tuso / mauso;
     float tuso1 = sp1.phanthuc*sp2.phanthuc + sp1.phanao*sp2.phanao;
     thuongthuc = tuso1 / mauso;
